@@ -7,7 +7,7 @@
 
 ### 👨‍💻 À propos de moi
 
-- 🎓 Étudiant en **1ère année de BUT Informatique** à l'IUT du Havre  
+- 🎓 Étudiant en **2ème année de BUT Informatique** à l'IUT du Havre  
 - ⚙️ Passionné par le **développement web**, **Création D'application**, et les **projets techniques**  
 - 🎸 Je joue de la guitare  
 - 🌱 En ce moment, je travaille sur :
