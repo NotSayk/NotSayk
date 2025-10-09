@@ -1,6 +1,6 @@
 <!-- BANNIÈRE ANIMÉE -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=8B5E3C&height=200&section=header&text=👋%20Salut,%20moi%20c'est%20Samuel%20Ampeau%20(@NotSayk)&fontSize=30&fontColor=fff&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=6A0DAD&height=200&section=header&text=👋%20Salut,%20moi%20c'est%20Samuel%20Ampeau%20(@NotSayk)&fontSize=30&fontColor=ffffff&animation=fadeIn" />
 </p>
 
 <!-- INTRO -->
@@ -42,12 +42,12 @@
 ### 📊 Statistiques GitHub
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=NotSayk&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NotSayk&layout=compact&theme=tokyonight&hide_border=true" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=NotSayk&show_icons=true&theme=purple_dark&hide_border=true" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NotSayk&layout=compact&theme=purple_dark&hide_border=true" />
 </p>
 
 <p align="center">
-  <img width="70%" src="https://streak-stats.demolab.com?user=NotSayk&theme=tokyonight&hide_border=true" />
+  <img width="70%" src="https://streak-stats.demolab.com?user=NotSayk&theme=purple_dark&hide_border=true" />
 </p>
 
 ---
@@ -62,21 +62,19 @@
 
 ---
 
-### ✨ Petits bonus visuels
-
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=NotSayk&label=Visiteurs&color=8B5E3C&style=flat-square" alt="compteur de visites" />
-  <img src="https://img.shields.io/badge/Theme-Sombre-8B5E3C?style=flat-square" />
+  <img src="https://komarev.com/ghpvc/?username=NotSayk&label=Visiteurs&color=6A0DAD&style=flat-square" alt="compteur de visites" />
+  <img src="https://img.shields.io/badge/Thème-Dark%20Purple-6A0DAD?style=flat-square" />
 </p>
 
 ---
 
-<!-- FOND ANIMÉ MODERNE -->
+<!-- ANIMATION SNAKE -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/NotSayk/NotSayk/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
 </p>
 
 <!-- FOOTER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=8B5E3C&height=120&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=6A0DAD&height=120&section=footer" />
 </p>
