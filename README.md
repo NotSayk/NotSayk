@@ -8,8 +8,8 @@
 ### 👨‍💻 À propos de moi
 
 - 🎓 Étudiant en **1ère année de BUT Informatique** à l'IUT du Havre  
-- ⚙️ Passionné par le **développement web**, **Docker**, et les **projets techniques**  
-- 🎸 Je joue de la guitare et je pratique le **rugby** 🏉  
+- ⚙️ Passionné par le **développement web**, **Création D'application**, et les **projets techniques**  
+- 🎸 Je joue de la guitare  
 - 🌱 En ce moment, je travaille sur :
   - Un site web pour mon **Portfolio**
 ---
@@ -18,7 +18,7 @@
 
 #### 💻 Langages & Outils
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,python,java,flask,docker,linux,git,vscode,github,canva,excel,word" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,python,java,flask,docker,linux,git,vscode,github,canva,excel,word,php,c,sql" />
 </p>
 
 #### ⚙️ Environnement
@@ -52,8 +52,8 @@
 
 ### 🌐 Me contacter
 
-📧 **samuel.ampeau@exemple.com**  
-💼 [LinkedIn](https://linkedin.com/in/ton-lien)  
+📧 **samuel@ampeau.fr**  
+💼 [LinkedIn]([https://linkedin.com/in/ton-lien](https://www.linkedin.com/in/samuel-ampeau-2b1a4a358/))  
 📍 **Le Havre, France**
 
 ---
