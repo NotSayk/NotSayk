@@ -18,7 +18,7 @@
 
 #### 💻 Langages & Outils
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,python,java,flask,docker,linux,git,vscode,github,canva,excel,word,php,c,sql" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,python,java,flask,docker,linux,git,vscode,github,php,c,sql" />
 </p>
 
 #### ⚙️ Environnement
