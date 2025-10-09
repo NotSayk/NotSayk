@@ -69,12 +69,11 @@
 
 ---
 
-<!-- ANIMATION SNAKE -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NotSayk/NotSayk/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/NotSayk/NotSayk/main/assets/typing-not-sayk.svg" alt="Typing NotSayk" />
 </p>
 
-<!-- FOOTER -->
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=6A0DAD&height=120&section=footer" />
 </p>
