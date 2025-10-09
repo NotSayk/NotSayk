@@ -1,13 +1,13 @@
-<!-- BANNIÈRE ANIMÉE -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=6A0DAD&height=200&section=header&text=👋%20Salut,%20moi%20c'est%20Samuel%20Ampeau%20(@NotSayk)&fontSize=30&fontColor=ffffff&animation=fadeIn" />
 </p>
 
-<!-- INTRO -->
 <h3 align="center">💻 Étudiant en 2ᵉ année de BUT Informatique | IUT du Havre</h3>
 
 <p align="center">
-  Développeur d’applications et de sites web, j’aime créer des projets simples, efficaces et modernes. 
+  Passionné par le <b>développement web</b> et la <b>création d’applications</b>, 
+  j’aime donner vie à des idées simples.  
+  J’explore différents environnements pour renforcer mes compétences.
 </p>
 
 ---
@@ -18,23 +18,26 @@
   <img src="https://skillicons.dev/icons?i=html,css,js,python,java,flask,docker,linux,git,vscode,github,c,php,sql&theme=dark" />
 </p>
 
-- 🧱 Bases solides en **programmation orientée objet** et **modélisation de bases de données**
-- 🐳 Déploiement d’applications avec **Docker** (environnement Debian)
-- 🌐 Conception de sites web responsives (HTML/CSS/JS)
-- ⚙️ Automatisation et scripting Python / Bash
+- 🧩 Développement web complet (**HTML**, **CSS**, **JavaScript**, **PHP**)
+- 🐍 Scripts et automatisations en **Python**
+- 🐳 Déploiement d’applications avec **Docker**
+- 🧱 Conception d’applications en **programmation orientée objet en Java**  
+- 🗄️ Gestion et modélisation de **bases de données SQL**  
 
 ---
 
-### 🚀 Projets en vedette
+### 🚀 Projets récents
 
-#### 🎬 [docker-sae203](https://github.com/NotSayk/docker-sae203)
-> Site de **vidéo à la demande** déployé dans un conteneur **Docker** (Flask + HTML/CSS/JS)
+#### 🎬 [test-test](https://github.com/NotSayk/ttttt3)
+> Site de **test** déployé avec **test** – intégration **test**
 
-#### 💼 [themis-et-helene](https://github.com/NotSayk/themis-et-helene)
-> Site vitrine de **maroquinerie** avec charte graphique beige/marron (Montserrat & Abril Fatface)
+---
 
-#### 🕹️ [casino-local](https://github.com/NotSayk/casino-local)
-> **Casino multijoueur local** avec monnaie fictive et persistance en temps réel
+### 🌍 À propos de moi
+
+🎯 Étudiant motivé et impliqué dans mes projets  
+🤝 Expérience en travail d’équipe (projets académiques & associatifs)  
+🎸 Passionné de musique 
 
 ---
 
