@@ -11,9 +11,7 @@
 - ⚙️ Passionné par le **développement web**, **Docker**, et les **projets techniques**  
 - 🎸 Je joue de la guitare et je pratique le **rugby** 🏉  
 - 🌱 En ce moment, je travaille sur :
-  - Un site web de **vidéo à la demande** sous **Docker**
-  - Un site vitrine de **maroquinerie “Thémis & Hélène”**
-
+  - Un site web pour mon **Portfolio**
 ---
 
 ### 🧠 Compétences
