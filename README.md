@@ -42,12 +42,12 @@
 ### 📊 Statistiques GitHub
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=NotSayk&show_icons=true&theme=purple_dark&hide_border=true" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NotSayk&layout=compact&theme=purple_dark&hide_border=true" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=NotSayk&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NotSayk&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img width="70%" src="https://streak-stats.demolab.com?user=NotSayk&theme=purple_dark&hide_border=true" />
+  <img width="70%" src="https://streak-stats.demolab.com?user=NotSayk&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
