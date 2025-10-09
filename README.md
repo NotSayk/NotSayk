@@ -44,8 +44,8 @@
 ### 📊 Statistiques GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TON_PSEUDO&show_icons=true&theme=tokyonight" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TON_PSEUDO&layout=compact&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=NotSayk&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NotSayk&layout=compact&theme=tokyonight" />
 </p>
 
 ---
