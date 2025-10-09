@@ -7,9 +7,9 @@
     <mask id="reveal">
       <rect x="0" y="0" width="0" height="120" fill="#fff">
         <animate attributeName="width"
-                 dur="4s"
-                 values="0;280;280;0"
-                 keyTimes="0;0.55;0.8;1"
+                 dur="5s"
+                 values="0;60;60;95;95;145;145;175;175;215;215;245;245;285;285;340;340;375;375;405;405;435;435;470;470;0"
+                 keyTimes="0;0.02;0.04;0.06;0.08;0.10;0.12;0.14;0.16;0.18;0.20;0.22;0.24;0.26;0.28;0.30;0.32;0.34;0.36;0.38;0.40;0.42;0.44;0.46;0.48;1"
                  calcMode="linear"
                  repeatCount="indefinite" />
       </rect>
@@ -40,26 +40,27 @@
     }
   </style>
 
-  <text x="30" y="30" class="subtle">NotSayk — Développeur / Étudiant</text>
+  <text x="30" y="30" class="subtle">Samuel Ampeau — Développeur / Étudiant</text>
 
   <g mask="url(#reveal)">
-    <text x="30" y="82" class="name">NotSayk</text>
+    <text x="30" y="82" class="name">Samuel Ampeau</text>
   </g>
 
   <g>
-    <rect id="cursorRect" x="30" y="28" width="6" height="48" fill="#D9B8FF">
-      <animate attributeName="x"
-               dur="4s"
-               values="30;310;310;30"
-               keyTimes="0;0.55;0.8;1"
-               calcMode="linear"
-               repeatCount="indefinite"/>
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1s"
-               repeatCount="indefinite"
-               begin="0s"/>
-    </rect>
+<rect id="cursorRect" x="30" y="42" width="6" height="48" fill="#D9B8FF">
+    <animate attributeName="x"
+                     dur="5s"
+                     values="30;60;60;95;95;145;145;175;175;215;215;245;245;285;285;340;340;375;375;405;405;435;435;470;470;30"
+                     keyTimes="0;0.02;0.04;0.06;0.08;0.10;0.12;0.14;0.16;0.18;0.20;0.22;0.24;0.26;0.28;0.30;0.32;0.34;0.36;0.38;0.40;0.42;0.44;0.46;0.48;1"
+                     calcMode="linear"
+                     repeatCount="indefinite"/>
+   <animate attributeName="opacity"
+                     values="1;1;1;1;1;1;1;1;1;1;1;1;1;1"
+                     keyTimes="0;0.08;0.16;0.24;0.32;0.40;0.48;0.56;0.64;0.72;0.80;0.88;0.96;1"
+                     dur="5s"
+                     repeatCount="indefinite"/>
+</rect>
+
   </g>
 
   <ellipse cx="200" cy="96" rx="160" ry="6" fill="#2a1138" opacity="0.25"/>
