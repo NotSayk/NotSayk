@@ -1,42 +1,40 @@
-<!-- Banner -->
+<!-- BANNIÈRE ANIMÉE -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=8B5E3C&height=200&section=header&text=👋%20Salut%20!%20Je%20suis%20Samuel%20Ampeau&fontSize=30&fontColor=fff&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=8B5E3C&height=200&section=header&text=👋%20Salut,%20moi%20c'est%20Samuel%20Ampeau%20(@NotSayk)&fontSize=30&fontColor=fff&animation=fadeIn" />
+</p>
+
+<!-- INTRO -->
+<h3 align="center">💻 Étudiant en 2ᵉ année de BUT Informatique | IUT du Havre</h3>
+
+<p align="center">
+  Passionné par le développement web, Docker, et la création de projets techniques modernes.  
+  J’aime concevoir des applications élégantes et fonctionnelles, du front-end à la base de données.
 </p>
 
 ---
 
-### 👨‍💻 À propos de moi
+### ⚙️ Stack & Compétences
 
-- 🎓 Étudiant en **2ème année de BUT Informatique** à l'IUT du Havre  
-- ⚙️ Passionné par le **développement web**, **Création D'application**, et les **projets techniques**  
-- 🎸 Je joue de la guitare  
-- 🌱 En ce moment, je travaille sur :
-  - Un site web pour mon **Portfolio**
----
-
-### 🧠 Compétences
-
-#### 💻 Langages & Outils
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,python,java,flask,docker,linux,git,vscode,github,php,c,sql" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,python,java,flask,docker,linux,git,vscode,github,c,php,sql&theme=dark" />
 </p>
 
-#### ⚙️ Environnement
-- 🪟 Windows & 🐧 Ubuntu
-- 🧰 Docker (Debian base)
-- 🧱 SQL & Modélisation de bases de données
+- 🧱 Bases solides en **programmation orientée objet** et **modélisation de bases de données**
+- 🐳 Déploiement d’applications avec **Docker** (environnement Debian)
+- 🌐 Conception de sites web responsives (HTML/CSS/JS)
+- ⚙️ Automatisation et scripting Python / Bash
 
 ---
 
 ### 🚀 Projets en vedette
 
-#### 🎬 [docker-sae203](https://github.com/TON_PSEUDO/docker-sae203)
+#### 🎬 [docker-sae203](https://github.com/NotSayk/docker-sae203)
 > Site de **vidéo à la demande** déployé dans un conteneur **Docker** (Flask + HTML/CSS/JS)
 
-#### 💼 [themis-et-helene](https://github.com/TON_PSEUDO/themis-et-helene)
+#### 💼 [themis-et-helene](https://github.com/NotSayk/themis-et-helene)
 > Site vitrine de **maroquinerie** avec charte graphique beige/marron (Montserrat & Abril Fatface)
 
-#### 🕹️ [casino-local](https://github.com/TON_PSEUDO/casino-local)
+#### 🕹️ [casino-local](https://github.com/NotSayk/casino-local)
 > **Casino multijoueur local** avec monnaie fictive et persistance en temps réel
 
 ---
@@ -44,20 +42,41 @@
 ### 📊 Statistiques GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NotSayk&show_icons=true&theme=tokyonight" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NotSayk&layout=compact&theme=tokyonight" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=NotSayk&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NotSayk&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img width="70%" src="https://streak-stats.demolab.com?user=NotSayk&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
 ### 🌐 Me contacter
 
-📧 **samuel@ampeau.fr**  
-💼 [LinkedIn]([https://linkedin.com/in/ton-lien](https://www.linkedin.com/in/samuel-ampeau-2b1a4a358/))  
-📍 **Le Havre, France**
+<p align="center">
+  📧 <b>samuel.ampeau@exemple.com</b>  
+  💼 <a href="https://linkedin.com/in/ton-lien" target="_blank">LinkedIn</a>  
+  📍 Le Havre, France
+</p>
 
 ---
 
+### ✨ Petits bonus visuels
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=8B5E3C&height=100&section=footer" />
+  <img src="https://komarev.com/ghpvc/?username=NotSayk&label=Visiteurs&color=8B5E3C&style=flat-square" alt="compteur de visites" />
+  <img src="https://img.shields.io/badge/Theme-Sombre-8B5E3C?style=flat-square" />
+</p>
+
+---
+
+<!-- FOND ANIMÉ MODERNE -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/NotSayk/NotSayk/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+</p>
+
+<!-- FOOTER -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=8B5E3C&height=120&section=footer" />
 </p>
