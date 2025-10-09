@@ -7,8 +7,7 @@
 <h3 align="center">💻 Étudiant en 2ᵉ année de BUT Informatique | IUT du Havre</h3>
 
 <p align="center">
-  Passionné par le développement web, Docker, et la création de projets techniques modernes.  
-  J’aime concevoir des applications élégantes et fonctionnelles, du front-end à la base de données.
+  Développeur d’applications et de sites web, j’aime créer des projets simples, efficaces et modernes. 
 </p>
 
 ---
