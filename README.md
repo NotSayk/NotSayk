@@ -55,8 +55,8 @@
 ### 🌐 Me contacter
 
 <p align="center">
-  📧 <b>samuel.ampeau@exemple.com</b>  
-  💼 <a href="https://linkedin.com/in/ton-lien" target="_blank">LinkedIn</a>  
+  📧 <b>samuel@ampeau.fr</b>  
+  💼 <a href="https://www.linkedin.com/in/samuel-ampeau-2b1a4a358/" target="_blank">LinkedIn</a>  
   📍 Le Havre, France
 </p>
 
