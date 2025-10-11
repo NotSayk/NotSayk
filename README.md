@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6A0DAD&height=200&section=header&text=👋%20Salut,%20moi%20c'est%20Samuel%20Ampeau%20(@NotSayk)&fontSize=30&fontColor=ffffff&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=6A0DAD&height=200&section=header&text=👋%20,%20Samuel%20Ampeau%20(@NotSayk)&fontSize=30&fontColor=ffffff&animation=fadeIn" />
 </p>
 
 <h3 align="center">💻 Étudiant en 2ᵉ année de BUT Informatique | IUT du Havre</h3>
