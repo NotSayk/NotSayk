@@ -57,10 +57,6 @@
   <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NotSayk&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
-<p align="center">
-  <img width="70%" src="https://streak-stats.demolab.com?user=NotSayk&theme=tokyonight&hide_border=true" />
-</p>
-
 ---
 
 ### 🌐 Me contacter
