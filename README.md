@@ -28,8 +28,17 @@
 
 ### 🚀 Projets récents
 
-#### 🎬 [test-test](https://github.com/NotSayk/ttttt3)
-> Site de **test** déployé avec **test** – intégration **test**
+#### 🔭 [Portfolio](https://github.com/NotSayk/portfolio)
+> Portfolio personnel — site déployé sur GitHub Pages : https://notsayk.github.io/portfolio
+
+#### 🏠 [NotSayk](https://github.com/NotSayk/NotSayk)
+> Dépôt principal du profil — contient le README du profil GitHub (ce dépôt).
+
+#### 🔗 [Bio Link Page](https://github.com/NotSayk/bio-link-page)
+> Page biolink — site déployé sur GitHub Pages : https://notsayk.github.io/bio-link-page
+
+#### 🧩 [TrueStrech](https://github.com/Akeush/TrueStrech)
+> Projet externe intéressant (Akeush) — dépôt GitHub.
 
 ---
 
