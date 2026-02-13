@@ -53,9 +53,10 @@
 ### 📊 Statistiques GitHub
 
 <p align="center">
-  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=TON_PSEUDO&show_icons=true&theme=dark)
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NotSayk&layout=compact&theme=tokyonight&hide_border=true" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=NotSayk&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=NotSayk&theme=tokyonight&hide_border=true" />
 </p>
+
 
 ---
 
