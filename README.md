@@ -71,7 +71,6 @@
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=NotSayk&label=Visiteurs&color=6A0DAD&style=flat-square" alt="compteur de visites" />
   <img src="https://img.shields.io/badge/Thème-Dark%20Purple-6A0DAD?style=flat-square" />
 </p>
 
