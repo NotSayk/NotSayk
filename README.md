@@ -53,7 +53,7 @@
 ### 📊 Statistiques GitHub
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=NotSayk&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img width="48%" src="https://github-stats-extended.vercel.app/api?username=anuraghazra&hide_title=true&show_icons=true&theme=dark_github" />
   <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=NotSayk&theme=tokyonight&hide_border=true" />
 </p>
 
