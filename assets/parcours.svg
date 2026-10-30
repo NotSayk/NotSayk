@@ -7,7 +7,8 @@
   </defs>
   <g clip-path="url(#frame)">
     <rect width="1200" height="220" fill="url(#bg)"/>
-    <path d="M60,105 q75,-26 150,0 t150,0 q75,-26 150,0 t150,0 q75,-26 150,0 t150,0 q75,-26 150,0 t150,0 L1140,105" fill="none" stroke="#1D4E89" stroke-width="3" stroke-dasharray="10 8">
+    <path d="M150,105 q75,-22 150,0 t150,0 q75,-22 150,0 t150,0 " fill="none" stroke="#FF7A1A" stroke-width="3" stroke-opacity=".7"/>
+    <path d="M750,105 q75,-22 150,0 t150,0 " fill="none" stroke="#E0E6ED" stroke-opacity=".5" stroke-width="3" stroke-dasharray="10 8">
       <animate attributeName="stroke-dashoffset" from="0" to="-36" dur="1.5s" repeatCount="indefinite"/>
     </path>
     
@@ -31,12 +32,5 @@
     <text x="1050" y="79" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" font-weight="700" fill="#4ADE80" letter-spacing="2">OBJECTIF</text>
     <text x="1050" y="151" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Roboto,Arial,sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">École d'ingénieur</text>
     <text x="1050" y="175" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Roboto,Arial,sans-serif" font-size="15" fill="#E0E6ED" fill-opacity=".85">prochaine escale</text>
-    <g>
-      <animateMotion dur="7s" repeatCount="indefinite" path="M776,83 q60,-26 120,0 t120,0" keyPoints="0;1" keyTimes="0;1"/>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="7s" repeatCount="indefinite"/>
-      <path d="M-14,0 L14,0 L9,8 L-9,8 Z" fill="#B23A2E"/>
-      <rect x="-10" y="-7" width="7" height="7" fill="#FF7A1A"/><rect x="-2" y="-7" width="7" height="7" fill="#2A9D8F"/>
-      <rect x="6" y="-12" width="5" height="12" fill="#E8EDF2"/>
-    </g>
   </g>
 </svg>

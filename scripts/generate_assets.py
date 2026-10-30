@@ -354,7 +354,9 @@ def parcours():
         (750, "2026", "BUT Informatique", "3ᵉ année · en alternance", "now"),
         (1050, "2027", "École d'ingénieur", "prochaine escale", "next"),
     ]
-    route = f"M60,{y} " + "".join(f"q75,-26 150,0 t150,0 " for _ in range(4)) + f"L1140,{y}"
+    wave = "q75,-22 150,0 t150,0 "
+    done_route = f"M150,{y} " + wave * 2
+    next_route = f"M750,{y} " + wave
     ports = ""
     for x, year, title, sub, state in steps:
         if state == "done":
@@ -384,17 +386,11 @@ def parcours():
   </defs>
   <g clip-path="url(#frame)">
     <rect width="{W}" height="{H}" fill="url(#bg)"/>
-    <path d="{route}" fill="none" stroke="{NAVY_3}" stroke-width="3" stroke-dasharray="10 8">
+    <path d="{done_route}" fill="none" stroke="{ORANGE}" stroke-width="3" stroke-opacity=".7"/>
+    <path d="{next_route}" fill="none" stroke="{FOAM}" stroke-opacity=".5" stroke-width="3" stroke-dasharray="10 8">
       <animate attributeName="stroke-dashoffset" from="0" to="-36" dur="1.5s" repeatCount="indefinite"/>
     </path>
     {ports}
-    <g>
-      <animateMotion dur="7s" repeatCount="indefinite" path="M776,{y-22} q60,-26 120,0 t120,0" keyPoints="0;1" keyTimes="0;1"/>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="7s" repeatCount="indefinite"/>
-      <path d="M-14,0 L14,0 L9,8 L-9,8 Z" fill="#B23A2E"/>
-      <rect x="-10" y="-7" width="7" height="7" fill="{ORANGE}"/><rect x="-2" y="-7" width="7" height="7" fill="#2A9D8F"/>
-      <rect x="6" y="-12" width="5" height="12" fill="#E8EDF2"/>
-    </g>
   </g>
 </svg>
 '''
