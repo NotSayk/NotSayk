@@ -94,15 +94,35 @@
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
-## 📊 Statistiques
+## 🎮 MiniGames Sayk — mes jeux
 
 <p align="center">
-  <img height="170" src="https://github-stats-extended.vercel.app/api?username=NotSayk&show_icons=true&hide_border=true&bg_color=0B1D33&title_color=FF7A1A&text_color=E0E6ED&icon_color=F4A261&custom_title=Statistiques%20GitHub&locale=fr" alt="Statistiques GitHub" />
-  <img height="170" src="https://github-stats-extended.vercel.app/api/top-langs?username=NotSayk&layout=compact&hide_border=true&bg_color=0B1D33&title_color=FF7A1A&text_color=E0E6ED&custom_title=Langages&locale=fr" alt="Langages les plus utilisés" />
+  Mon studio de jeux en ligne : je les développe et les héberge moi-même sur <a href="https://sayk.fr"><b>sayk.fr</b></a>.<br/>
+  <a href="https://github.com/MiniGamesSayk"><img src="https://img.shields.io/badge/GitHub-MiniGamesSayk-0B1D33?style=for-the-badge&logo=github&logoColor=FF7A1A" alt="Organisation MiniGamesSayk" /></a>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NotSayk&hide_border=true&background=0B1D33&ring=FF7A1A&fire=FF7A1A&currStreakLabel=F4A261&sideLabels=F4A261&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=9AA7B6&stroke=1D4E89&locale=fr" alt="Série de contributions" />
+  <a href="https://sayk.fr"><img src="assets/project-minigames.svg" width="49%" alt="MiniGames Sayk — ma plateforme de mini-jeux en ligne" /></a>
+  <a href="https://stickyclaude.sayk.fr"><img src="assets/project-stickyclaude.svg" width="49%" alt="StickyClaude — jeu de combat de stickmen en ligne" /></a>
+</p>
+
+<details>
+<summary><b>📸 Aperçu de StickyClaude</b></summary>
+<br/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MiniGamesSayk/StickyClaude/main/docs/screenshots/11-combat.jpg" width="100%" alt="Combat dans StickyClaude" />
+</p>
+</details>
+
+- 🧪 [**OpenClaude**](https://github.com/MiniGamesSayk/OpenClaude) — ma version d'[OpenFront.io](https://openfront.io), jeu de stratégie en temps réel (open source, AGPL v3)
+- 🛠️ D'autres jeux sont en préparation…
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+## 📊 Statistiques
+
+<p align="center">
+  <img src="assets/generated/stats.svg" width="100%" alt="Tableau de bord : contributions, commits, pull requests, série, dépôts publics et langages" />
 </p>
 
 <p align="center">
@@ -114,6 +134,7 @@
 ## 📓 Activité récente
 
 <!--START_SECTION:activity-->
+_Mise à jour en cours…_
 <!--END_SECTION:activity-->
 
 <img src="assets/divider.svg" width="100%" alt="" />

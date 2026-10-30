@@ -7,7 +7,6 @@ import sys
 from pathlib import Path
 
 OUT = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).resolve().parent.parent / "assets"
-OUT.mkdir(parents=True, exist_ok=True)
 
 NAVY_0 = "#07111F"
 NAVY_1 = "#0B1D33"
@@ -312,9 +311,11 @@ def project_card(slug, title, color, code, lines, tech, dest, status=None):
         f'<text x="40" y="{108 + i*20}" font-family="{SANS}" font-size="15" fill="{tc}" fill-opacity=".95">{l}</text>'
         for i, l in enumerate(lines)
     )
+    light = tc != "#FFFFFF"
+    green = "#166534" if light else "#4ADE80"
     lamp = (
-        f'<g class="lamp"><circle cx="{W-130}" cy="50" r="5" fill="#4ADE80"/></g>'
-        f'<text x="{W-120}" y="54" font-family="{MONO}" font-size="11" font-weight="700" fill="#4ADE80">{status}</text>'
+        f'<g class="lamp"><circle cx="{W-130}" cy="50" r="5" fill="{green}"/></g>'
+        f'<text x="{W-120}" y="54" font-family="{MONO}" font-size="11" font-weight="700" fill="{green}">{status}</text>'
         if status else ""
     )
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{title} — {' '.join(lines)} ({tech})">
@@ -331,7 +332,7 @@ def project_card(slug, title, color, code, lines, tech, dest, status=None):
     <rect x="6" y="{H-20}" width="{W-12}" height="14" rx="4" fill="#000" fill-opacity=".32"/>
     <rect x="14" y="10" width="10" height="7" fill="{NAVY_0}" opacity=".6"/><rect x="{W-24}" y="10" width="10" height="7" fill="{NAVY_0}" opacity=".6"/>
     <rect x="14" y="{H-17}" width="10" height="7" fill="{NAVY_0}" opacity=".6"/><rect x="{W-24}" y="{H-17}" width="10" height="7" fill="{NAVY_0}" opacity=".6"/>
-    <rect x="26" y="30" width="{W-52}" height="{H-60}" rx="6" fill="{NAVY_0}" fill-opacity=".5"/>
+    <rect x="26" y="30" width="{W-52}" height="{H-60}" rx="6" fill="{'#FFFFFF' if light else NAVY_0}" fill-opacity="{'.45' if light else '.5'}"/>
     <text x="40" y="54" font-family="{MONO}" font-size="11" fill="{tc}" fill-opacity=".75" letter-spacing="1">{code}</text>
     {lamp}
     <text x="40" y="84" font-family="{SANS}" font-size="26" font-weight="800" fill="{tc}">{title}</text>
@@ -444,27 +445,35 @@ def footer():
     (OUT / "footer.svg").write_text(svg)
 
 
-header()
-stack()
-parcours()
-project_card("pepiterush", "Pépite Rush", ORANGE, "NSKU 300001-0 · JEU MULTIJOUEUR",
-             ["Jeu de cartes « stop ou encore » en ligne,", "de 2 à 6 joueurs en temps réel, bots inclus."],
-             "TypeScript · React · Fastify · WebSocket", "github.com/NotSayk/goldmine")
-project_card("mpm", "MPM Planner", "#E63946", "NSKU 300002-1 · APPLICATION JAVA",
-             ["Planification de projet par la méthode MPM :", "dates au plus tôt / tard, marges, chemin critique."],
-             "Java · Swing · POO", "github.com/NotSayk/MPM-Planner")
-project_card("tontube", "TonTube", "#2A9D8F", "NSKU 300003-2 · SAÉ 2.03",
-             ["Site de vidéo à la demande avec comptes", "utilisateurs, conteneurisé avec Docker."],
-             "HTML · CSS · JavaScript · Docker · Apache", "github.com/NotSayk/TonTube")
-project_card("memotools", "MemoTools", "#457B9D", "NSKU 300004-3 · E-COMMERCE",
-             ["Boutique d'outils pédagogiques imprimés en 3D", "pour apprendre les structures de données."],
-             "HTML · CSS · JavaScript · JSON", "github.com/NotSayk/SchemaMemoire")
-project_card("portfolio", "Terminal Portfolio", "#6C5CE7", "NSKU 300005-4 · GITHUB PAGES",
-             ["Mon portfolio façon terminal Linux : commandes,", "autocomplétion et mini-jeu Snake intégré."],
-             "HTML · CSS · JavaScript", "notsayk.github.io/portfolio", "EN LIGNE")
-project_card("biolink", "Bio Link Page", "#3D5A80", "NSKU 300006-5 · GITHUB PAGES",
-             ["Ma page de liens : intro animée, thème", "clair / sombre et lecteur de musique."],
-             "HTML · CSS · JavaScript", "notsayk.github.io/bio-link-page", "EN LIGNE")
-divider()
-footer()
-print("ok", sorted(p.name for p in OUT.iterdir()))
+if __name__ == "__main__":
+    OUT.mkdir(parents=True, exist_ok=True)
+    header()
+    stack()
+    parcours()
+    project_card("pepiterush", "Pépite Rush", ORANGE, "NSKU 300001-0 · JEU MULTIJOUEUR",
+                 ["Jeu de cartes « stop ou encore » en ligne,", "de 2 à 6 joueurs en temps réel, bots inclus."],
+                 "TypeScript · React · Fastify · WebSocket", "github.com/NotSayk/goldmine")
+    project_card("mpm", "MPM Planner", "#E63946", "NSKU 300002-1 · APPLICATION JAVA",
+                 ["Planification de projet par la méthode MPM :", "dates au plus tôt / tard, marges, chemin critique."],
+                 "Java · Swing · POO", "github.com/NotSayk/MPM-Planner")
+    project_card("tontube", "TonTube", "#2A9D8F", "NSKU 300003-2 · SAÉ 2.03",
+                 ["Site de vidéo à la demande avec comptes", "utilisateurs, conteneurisé avec Docker."],
+                 "HTML · CSS · JavaScript · Docker · Apache", "github.com/NotSayk/TonTube")
+    project_card("memotools", "MemoTools", "#457B9D", "NSKU 300004-3 · E-COMMERCE",
+                 ["Boutique d'outils pédagogiques imprimés en 3D", "pour apprendre les structures de données."],
+                 "HTML · CSS · JavaScript · JSON", "github.com/NotSayk/SchemaMemoire")
+    project_card("portfolio", "Terminal Portfolio", "#6C5CE7", "NSKU 300005-4 · GITHUB PAGES",
+                 ["Mon portfolio façon terminal Linux : commandes,", "autocomplétion et mini-jeu Snake intégré."],
+                 "HTML · CSS · JavaScript", "notsayk.github.io/portfolio", "EN LIGNE")
+    project_card("biolink", "Bio Link Page", "#3D5A80", "NSKU 300006-5 · GITHUB PAGES",
+                 ["Ma page de liens : intro animée, thème", "clair / sombre et lecteur de musique."],
+                 "HTML · CSS · JavaScript", "notsayk.github.io/bio-link-page", "EN LIGNE")
+    project_card("minigames", "MiniGames Sayk", "#E9C46A", "NSKU 400001-0 · STUDIO",
+                 ["Ma plateforme de mini-jeux en ligne,", "hébergée sur mon propre VPS."],
+                 "Docker · VPS", "sayk.fr", "EN LIGNE")
+    project_card("stickyclaude", "StickyClaude", "#E63946", "NSKU 400002-1 · JEU DE COMBAT",
+                 ["Combat de stickmen dans le navigateur,", "de 2 à 8 joueurs, style « encre et carnet »."],
+                 "TypeScript · PixiJS · Preact · WebSocket", "stickyclaude.sayk.fr", "EN LIGNE")
+    divider()
+    footer()
+    print("ok", sorted(p.name for p in OUT.iterdir()))
