@@ -16,7 +16,7 @@ permissions:
 
 concurrency:
   group: dashboard
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update:
@@ -47,5 +47,10 @@ jobs:
             echo "Rien à mettre à jour"
           else
             git commit -m "⚓ Mise à jour du tableau de bord"
-            git push
+            # main may have moved while we were running: rebase and retry.
+            for attempt in 1 2 3; do
+              git pull --rebase origin main && git push && exit 0
+              sleep $((attempt * 5))
+            done
+            exit 1
           fi
