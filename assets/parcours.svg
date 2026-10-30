@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Parcours : 2024 BUT Informatique 1re année, 2025 2e année, 2026 3e année en alternance, 2027 école d'ingénieur">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#07111F"/><stop offset="1" stop-color="#0B1D33"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="220" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="220" fill="url(#bg)"/>
+    <path d="M60,105 q75,-26 150,0 t150,0 q75,-26 150,0 t150,0 q75,-26 150,0 t150,0 q75,-26 150,0 t150,0 L1140,105" fill="none" stroke="#1D4E89" stroke-width="3" stroke-dasharray="10 8">
+      <animate attributeName="stroke-dashoffset" from="0" to="-36" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+    
+    <circle cx="150" cy="105" r="11" fill="#FF7A1A"/><path d="M145,105 l4,4 l7,-8" stroke="#07111F" stroke-width="3" fill="none"/>
+    <text x="150" y="61" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="22" font-weight="800" fill="#FF7A1A">2024</text>
+    <text x="150" y="79" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" font-weight="700" fill="#4ADE80" letter-spacing="2"></text>
+    <text x="150" y="151" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Roboto,Arial,sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">BUT Informatique</text>
+    <text x="150" y="175" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Roboto,Arial,sans-serif" font-size="15" fill="#E0E6ED" fill-opacity=".85">1ʳᵉ année · IUT du Havre</text>
+    <circle cx="450" cy="105" r="11" fill="#FF7A1A"/><path d="M445,105 l4,4 l7,-8" stroke="#07111F" stroke-width="3" fill="none"/>
+    <text x="450" y="61" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="22" font-weight="800" fill="#FF7A1A">2025</text>
+    <text x="450" y="79" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" font-weight="700" fill="#4ADE80" letter-spacing="2"></text>
+    <text x="450" y="151" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Roboto,Arial,sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">BUT Informatique</text>
+    <text x="450" y="175" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Roboto,Arial,sans-serif" font-size="15" fill="#E0E6ED" fill-opacity=".85">2ᵉ année · IUT du Havre</text>
+    <circle cx="750" cy="105" r="11" fill="none" stroke="#FF7A1A" stroke-width="3"><animate attributeName="r" values="11;26" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="1.8s" repeatCount="indefinite"/></circle><circle cx="750" cy="105" r="13" fill="#F4A261"/><circle cx="750" cy="105" r="5" fill="#07111F"/>
+    <text x="750" y="61" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="22" font-weight="800" fill="#FF7A1A">2026</text>
+    <text x="750" y="79" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" font-weight="700" fill="#4ADE80" letter-spacing="2">ACTUELLEMENT</text>
+    <text x="750" y="151" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Roboto,Arial,sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">BUT Informatique</text>
+    <text x="750" y="175" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Roboto,Arial,sans-serif" font-size="15" fill="#E0E6ED" fill-opacity=".85">3ᵉ année · en alternance</text>
+    <circle cx="1050" cy="105" r="12" fill="#0B1D33" stroke="#E0E6ED" stroke-width="3" stroke-dasharray="5 4"/>
+    <text x="1050" y="61" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="22" font-weight="800" fill="#E0E6ED">2027</text>
+    <text x="1050" y="79" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="11" font-weight="700" fill="#4ADE80" letter-spacing="2">OBJECTIF</text>
+    <text x="1050" y="151" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Roboto,Arial,sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">École d'ingénieur</text>
+    <text x="1050" y="175" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Roboto,Arial,sans-serif" font-size="15" fill="#E0E6ED" fill-opacity=".85">prochaine escale</text>
+    <g>
+      <animateMotion dur="7s" repeatCount="indefinite" path="M776,83 q60,-26 120,0 t120,0" keyPoints="0;1" keyTimes="0;1"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="7s" repeatCount="indefinite"/>
+      <path d="M-14,0 L14,0 L9,8 L-9,8 Z" fill="#B23A2E"/>
+      <rect x="-10" y="-7" width="7" height="7" fill="#FF7A1A"/><rect x="-2" y="-7" width="7" height="7" fill="#2A9D8F"/>
+      <rect x="6" y="-12" width="5" height="12" fill="#E8EDF2"/>
+    </g>
+  </g>
+</svg>

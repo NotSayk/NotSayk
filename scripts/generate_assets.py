@@ -48,12 +48,13 @@ def container(x, y, w, h, color, label, code, text_color="#FFFFFF", font=18):
         f'<line x1="{x + i}" y1="{y + 5}" x2="{x + i}" y2="{y + h - 5}" stroke="#000" stroke-opacity=".18" stroke-width="2"/>'
         for i in range(10, int(w) - 6, 9)
     )
+    bw = min(w - 8, max(w * 0.72, len(label) * font * 0.62 + 16))
     return f'''
     <rect x="{x}" y="{y}" width="{w}" height="{h}" rx="2" fill="{color}"/>
     {ribs}
     <rect x="{x}" y="{y}" width="{w}" height="4" fill="#000" fill-opacity=".25"/>
     <rect x="{x}" y="{y + h - 4}" width="{w}" height="4" fill="#000" fill-opacity=".3"/>
-    <rect x="{x + w/2 - w*0.36}" y="{y + h/2 - font*0.85}" width="{w*0.72}" height="{font*1.6}" rx="3" fill="{NAVY_1 if text_color == '#FFFFFF' else '#FFFFFF'}" fill-opacity="{'.55' if text_color == '#FFFFFF' else '.6'}"/>
+    <rect x="{x + w/2 - bw/2}" y="{y + h/2 - font*0.85}" width="{bw}" height="{font*1.6}" rx="3" fill="{NAVY_1 if text_color == '#FFFFFF' else '#FFFFFF'}" fill-opacity="{'.55' if text_color == '#FFFFFF' else '.6'}"/>
     <text x="{x + w/2}" y="{y + h/2 + font*0.32}" text-anchor="middle" font-family="{MONO}" font-weight="800" font-size="{font}" fill="{text_color}" letter-spacing="1">{label}</text>
     <text x="{x + 6}" y="{y + 14}" font-family="{MONO}" font-size="8" fill="#fff" fill-opacity=".75">{code}</text>'''
 
@@ -227,11 +228,11 @@ def header():
 def stack():
     W, H = 1000, 330
     quay = 290
-    cw, ch = 132, 50
+    cw, ch = 112, 50
     rows = [
-        [("JAVA", "#E63946"), ("PYTHON", "#2A9D8F"), ("PHP", "#6C5CE7"), ("SQL", "#457B9D"), ("C", "#5A6B7D")],
-        [("HTML", ORANGE), ("CSS", "#1D7FD1"), ("JS", "#E9C46A"), ("FLASK", "#3D5A80"), ("DOCKER", "#2496ED")],
-        [("LINUX", "#D4A017"), ("GIT", "#F05032"), ("GITHUB", "#3A3F4B"), ("VS CODE", "#007ACC")],
+        [("JAVA", "#E63946"), ("PYTHON", "#2A9D8F"), ("PHP", "#6C5CE7"), ("SQL", "#457B9D"), ("C", "#5A6B7D"), ("TYPESCRIPT", "#3178C6")],
+        [("HTML", ORANGE), ("CSS", "#1D7FD1"), ("JS", "#E9C46A"), ("REACT", "#149ECA"), ("NODE.JS", "#5FA04E"), ("FLASK", "#3D5A80")],
+        [("DOCKER", "#2496ED"), ("LINUX", "#D4A017"), ("GIT", "#F05032"), ("GITHUB", "#3A3F4B"), ("VS CODE", "#007ACC")],
     ]
     dark_text = {"JS", "LINUX"}
     groups = []
@@ -245,11 +246,11 @@ def stack():
             n += 1
             tc = NAVY_1 if label in dark_text else "#FFFFFF"
             groups.append(
-                f'<g class="drop" style="animation-delay:{delay:.2f}s">{container(x, y, cw, ch, color, label, f"NSKU {100 + n:03d}-{n % 10}", tc, 17)}</g>'
+                f'<g class="drop" style="animation-delay:{delay:.2f}s">{container(x, y, cw, ch, color, label, f"NSKU {100 + n:03d}-{n % 10}", tc, 14)}</g>'
             )
 
     crane_x = 790
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Stack technique empilée en conteneurs : Java, Python, PHP, SQL, C, HTML, CSS, JavaScript, Flask, Docker, Linux, Git, GitHub, VS Code">
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Stack technique empilée en conteneurs : Java, Python, PHP, SQL, C, TypeScript, HTML, CSS, JavaScript, React, Node.js, Flask, Docker, Linux, Git, GitHub, VS Code">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="{NAVY_0}"/><stop offset="1" stop-color="{NAVY_1}"/>
@@ -282,9 +283,9 @@ def stack():
       <rect x="{crane_x-36}" y="30" width="32" height="12" fill="{ORANGE}"/>
       <line x1="{crane_x-20}" y1="42" x2="{crane_x-20}" y2="110" stroke="{FOAM}" stroke-width="2"/>
       <path d="M{crane_x-26},110 h12 v6 a6,6 0 1 1 -12,0 Z" fill="{FOAM}"/>
-      <line x1="{crane_x-20}" y1="122" x2="{crane_x-70}" y2="140" stroke="{FOAM}" stroke-width="1.5"/>
-      <line x1="{crane_x-20}" y1="122" x2="{crane_x+30}" y2="140" stroke="{FOAM}" stroke-width="1.5"/>
-      {container(crane_x - 80, 140, 120, 44, SAND, "À VENIR…", "NSKU 999-?", NAVY_1, 13)}
+      <line x1="{crane_x-20}" y1="122" x2="{crane_x-75}" y2="134" stroke="{FOAM}" stroke-width="1.5"/>
+      <line x1="{crane_x-20}" y1="122" x2="{crane_x+35}" y2="134" stroke="{FOAM}" stroke-width="1.5"/>
+      {container(crane_x - 85, 134, 130, 44, SAND, "ÉCOLE D'INGÉ", "NSKU 2027-?", NAVY_1, 13)}
     </g>
     {''.join(groups)}
     <!-- quay -->
@@ -301,8 +302,8 @@ def stack():
 
 
 # ---------------------------------------------------------------- project containers
-def project_card(slug, title, color, code, lines, dest, status="À QUAI"):
-    W, H = 500, 200
+def project_card(slug, title, color, code, lines, tech, dest, status=None):
+    W, H = 500, 220
     tc = NAVY_1 if color in ("#E9C46A",) else "#FFFFFF"
     ribs = "".join(
         f'<rect x="{x}" y="20" width="4" height="{H-40}" fill="#000" fill-opacity=".12"/>' for x in range(28, W - 20, 16)
@@ -311,7 +312,12 @@ def project_card(slug, title, color, code, lines, dest, status="À QUAI"):
         f'<text x="40" y="{108 + i*20}" font-family="{SANS}" font-size="15" fill="{tc}" fill-opacity=".95">{l}</text>'
         for i, l in enumerate(lines)
     )
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{title} — {' '.join(lines)}">
+    lamp = (
+        f'<g class="lamp"><circle cx="{W-130}" cy="50" r="5" fill="#4ADE80"/></g>'
+        f'<text x="{W-120}" y="54" font-family="{MONO}" font-size="11" font-weight="700" fill="#4ADE80">{status}</text>'
+        if status else ""
+    )
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{title} — {' '.join(lines)} ({tech})">
   <style>
     .lamp {{ animation: blink 1.8s ease-in-out infinite; }}
     @keyframes blink {{ 50% {{ opacity: .25; }} }}
@@ -327,15 +333,72 @@ def project_card(slug, title, color, code, lines, dest, status="À QUAI"):
     <rect x="14" y="{H-17}" width="10" height="7" fill="{NAVY_0}" opacity=".6"/><rect x="{W-24}" y="{H-17}" width="10" height="7" fill="{NAVY_0}" opacity=".6"/>
     <rect x="26" y="30" width="{W-52}" height="{H-60}" rx="6" fill="{NAVY_0}" fill-opacity=".5"/>
     <text x="40" y="54" font-family="{MONO}" font-size="11" fill="{tc}" fill-opacity=".75" letter-spacing="1">{code}</text>
-    <g class="lamp"><circle cx="{W-150}" cy="50" r="5" fill="#4ADE80"/></g>
-    <text x="{W-140}" y="54" font-family="{MONO}" font-size="11" font-weight="700" fill="#4ADE80">{status}</text>
+    {lamp}
     <text x="40" y="84" font-family="{SANS}" font-size="26" font-weight="800" fill="{tc}">{title}</text>
     {desc}
+    <text x="40" y="{H-64}" font-family="{MONO}" font-size="12" fill="{tc}" fill-opacity=".8">{tech}</text>
     <text x="40" y="{H-38}" font-family="{MONO}" font-size="12" fill="{SAND if tc == '#FFFFFF' else NAVY_1}" font-weight="700">➜ {dest}</text>
   </g>
 </svg>
 '''
     (OUT / f"project-{slug}.svg").write_text(svg)
+
+
+# ---------------------------------------------------------------- timeline
+def parcours():
+    W, H = 1200, 220
+    y = 105
+    steps = [
+        (150, "2024", "BUT Informatique", "1ʳᵉ année · IUT du Havre", "done"),
+        (450, "2025", "BUT Informatique", "2ᵉ année · IUT du Havre", "done"),
+        (750, "2026", "BUT Informatique", "3ᵉ année · en alternance", "now"),
+        (1050, "2027", "École d'ingénieur", "prochaine escale", "next"),
+    ]
+    route = f"M60,{y} " + "".join(f"q75,-26 150,0 t150,0 " for _ in range(4)) + f"L1140,{y}"
+    ports = ""
+    for x, year, title, sub, state in steps:
+        if state == "done":
+            mark = f'<circle cx="{x}" cy="{y}" r="11" fill="{ORANGE}"/><path d="M{x-5},{y} l4,4 l7,-8" stroke="{NAVY_0}" stroke-width="3" fill="none"/>'
+        elif state == "now":
+            mark = (
+                f'<circle cx="{x}" cy="{y}" r="11" fill="none" stroke="{ORANGE}" stroke-width="3">'
+                f'<animate attributeName="r" values="11;26" dur="1.8s" repeatCount="indefinite"/>'
+                f'<animate attributeName="opacity" values="1;0" dur="1.8s" repeatCount="indefinite"/></circle>'
+                f'<circle cx="{x}" cy="{y}" r="13" fill="{SAND}"/><circle cx="{x}" cy="{y}" r="5" fill="{NAVY_0}"/>'
+            )
+        else:
+            mark = f'<circle cx="{x}" cy="{y}" r="12" fill="{NAVY_1}" stroke="{FOAM}" stroke-width="3" stroke-dasharray="5 4"/>'
+        tag = {"now": "ACTUELLEMENT", "next": "OBJECTIF"}.get(state, "")
+        ports += f'''
+    {mark}
+    <text x="{x}" y="{y-44}" text-anchor="middle" font-family="{MONO}" font-size="22" font-weight="800" fill="{ORANGE if state != 'next' else FOAM}">{year}</text>
+    <text x="{x}" y="{y-26}" text-anchor="middle" font-family="{MONO}" font-size="11" font-weight="700" fill="#4ADE80" letter-spacing="2">{tag}</text>
+    <text x="{x}" y="{y+46}" text-anchor="middle" font-family="{SANS}" font-size="19" font-weight="800" fill="#FFFFFF">{title}</text>
+    <text x="{x}" y="{y+70}" text-anchor="middle" font-family="{SANS}" font-size="15" fill="{FOAM}" fill-opacity=".85">{sub}</text>'''
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Parcours : 2024 BUT Informatique 1re année, 2025 2e année, 2026 3e année en alternance, 2027 école d'ingénieur">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="{NAVY_0}"/><stop offset="1" stop-color="{NAVY_1}"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="{W}" height="{H}" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="{W}" height="{H}" fill="url(#bg)"/>
+    <path d="{route}" fill="none" stroke="{NAVY_3}" stroke-width="3" stroke-dasharray="10 8">
+      <animate attributeName="stroke-dashoffset" from="0" to="-36" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+    {ports}
+    <g>
+      <animateMotion dur="7s" repeatCount="indefinite" path="M776,{y-22} q60,-26 120,0 t120,0" keyPoints="0;1" keyTimes="0;1"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="7s" repeatCount="indefinite"/>
+      <path d="M-14,0 L14,0 L9,8 L-9,8 Z" fill="#B23A2E"/>
+      <rect x="-10" y="-7" width="7" height="7" fill="{ORANGE}"/><rect x="-2" y="-7" width="7" height="7" fill="#2A9D8F"/>
+      <rect x="6" y="-12" width="5" height="12" fill="#E8EDF2"/>
+    </g>
+  </g>
+</svg>
+'''
+    (OUT / "parcours.svg").write_text(svg)
 
 
 # ---------------------------------------------------------------- divider & footer
@@ -387,14 +450,25 @@ def footer():
 
 header()
 stack()
-project_card("portfolio", "Portfolio", ORANGE, "NSKU 200001-0 · GITHUB PAGES",
-             ["Mon portfolio personnel : parcours,", "compétences et réalisations."], "notsayk.github.io/portfolio", "EN LIGNE")
-project_card("biolink", "Bio Link Page", "#2A9D8F", "NSKU 200002-1 · GITHUB PAGES",
-             ["Ma page « link in bio » : tous mes", "liens réunis au même endroit."], "notsayk.github.io/bio-link-page", "EN LIGNE")
-project_card("profile", "NotSayk", "#457B9D", "NSKU 200003-2 · PROFILE README",
-             ["Ce profil : SVG animés faits main et", "GitHub Actions qui le tiennent à jour."], "github.com/NotSayk/NotSayk")
-project_card("truestrech", "TrueStrech", "#E63946", "NSKU 200004-3 · ESCALE EXTERNE",
-             ["Projet hébergé par @Akeush,", "à découvrir sur son dépôt."], "github.com/Akeush/TrueStrech", "ESCALE")
+parcours()
+project_card("pepiterush", "Pépite Rush", ORANGE, "NSKU 300001-0 · JEU MULTIJOUEUR",
+             ["Jeu de cartes « stop ou encore » en ligne,", "de 2 à 6 joueurs en temps réel, bots inclus."],
+             "TypeScript · React · Fastify · WebSocket", "github.com/NotSayk/goldmine")
+project_card("mpm", "MPM Planner", "#E63946", "NSKU 300002-1 · APPLICATION JAVA",
+             ["Planification de projet par la méthode MPM :", "dates au plus tôt / tard, marges, chemin critique."],
+             "Java · Swing · POO", "github.com/NotSayk/MPM-Planner")
+project_card("tontube", "TonTube", "#2A9D8F", "NSKU 300003-2 · SAÉ 2.03",
+             ["Site de vidéo à la demande avec comptes", "utilisateurs, conteneurisé avec Docker."],
+             "HTML · CSS · JavaScript · Docker · Apache", "github.com/NotSayk/TonTube")
+project_card("memotools", "MemoTools", "#457B9D", "NSKU 300004-3 · E-COMMERCE",
+             ["Boutique d'outils pédagogiques imprimés en 3D", "pour apprendre les structures de données."],
+             "HTML · CSS · JavaScript · JSON", "github.com/NotSayk/SchemaMemoire")
+project_card("portfolio", "Terminal Portfolio", "#6C5CE7", "NSKU 300005-4 · GITHUB PAGES",
+             ["Mon portfolio façon terminal Linux : commandes,", "autocomplétion et mini-jeu Snake intégré."],
+             "HTML · CSS · JavaScript", "notsayk.github.io/portfolio", "EN LIGNE")
+project_card("biolink", "Bio Link Page", "#3D5A80", "NSKU 300006-5 · GITHUB PAGES",
+             ["Ma page de liens : intro animée, thème", "clair / sombre et lecteur de musique."],
+             "HTML · CSS · JavaScript", "notsayk.github.io/bio-link-page", "EN LIGNE")
 divider()
 footer()
 print("ok", sorted(p.name for p in OUT.iterdir()))
