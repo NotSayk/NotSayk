@@ -1,0 +1,45 @@
+name: Ciel du Havre
+
+# Redraws the README banner every hour so the sky follows the time of day in Le Havre.
+# The image lives on the `sky` branch so main's history stays clean.
+on:
+  schedule:
+    - cron: '1 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - 'scripts/generate_assets.py'
+      - '.github/workflows/sky.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sky
+  cancel-in-progress: true
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Draw the sky for the current hour
+        run: python3 scripts/generate_assets.py --sky dist
+
+      - name: Publish to sky branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: sky
+          force_orphan: true
+          commit_message: 'Ciel du Havre'

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Samuel Ampeau (@NotSayk) — port du Havre au coucher du soleil" />
+  <img src="https://raw.githubusercontent.com/NotSayk/NotSayk/sky/header.svg" width="100%" alt="Samuel Ampeau (@NotSayk) — le port du Havre, le ciel suit l'heure qu'il est là-bas" />
 </p>
 
 <p align="center">
@@ -110,7 +110,10 @@
 <summary><b>📸 Aperçu de StickyClaude</b></summary>
 <br/>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MiniGamesSayk/StickyClaude/main/docs/screenshots/11-combat.jpg" width="100%" alt="Combat dans StickyClaude" />
+  <img src="https://raw.githubusercontent.com/MiniGamesSayk/StickyClaude/main/docs/screenshots/01-accueil.jpg" width="49%" alt="Écran d'accueil de StickyClaude" />
+  <img src="https://raw.githubusercontent.com/MiniGamesSayk/StickyClaude/main/docs/screenshots/12-fin-de-manche.jpg" width="49%" alt="Fin de manche dans StickyClaude" />
+  <img src="https://raw.githubusercontent.com/MiniGamesSayk/StickyClaude/main/docs/screenshots/02-personnalisation.jpg" width="49%" alt="Personnalisation du stickman" />
+  <img src="https://raw.githubusercontent.com/MiniGamesSayk/StickyClaude/main/docs/screenshots/07-entrainement.jpg" width="49%" alt="Mode entraînement avec son carnet d'objectifs" />
 </p>
 </details>
 
