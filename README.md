@@ -134,7 +134,14 @@
 ## 📓 Activité récente
 
 <!--START_SECTION:activity-->
-_Mise à jour en cours…_
+- `25 oct.` ⬆️ 1 push sur [MiniGamesSayk/OpenClaude](https://github.com/MiniGamesSayk/OpenClaude)
+- `24 oct.` ⬆️ 2 pushs sur [MiniGamesSayk/StickyClaude](https://github.com/MiniGamesSayk/StickyClaude)
+- `23 oct.` ⬆️ 25 pushs sur [MiniGamesSayk/StickyClaude](https://github.com/MiniGamesSayk/StickyClaude)
+- `22 oct.` ⬆️ 14 pushs sur [MiniGamesSayk/StickyClaude](https://github.com/MiniGamesSayk/StickyClaude)
+- `21 oct.` ⬆️ 8 pushs sur [MiniGamesSayk/StickyClaude](https://github.com/MiniGamesSayk/StickyClaude)
+- `21 oct.` ⬆️ 13 pushs sur [MiniGamesSayk/OpenClaude](https://github.com/MiniGamesSayk/OpenClaude)
+- `20 oct.` ⬆️ 3 pushs sur [MiniGamesSayk/OpenClaude](https://github.com/MiniGamesSayk/OpenClaude)
+- `20 oct.` ⬆️ 1 push sur [NotSayk/goldmine](https://github.com/NotSayk/goldmine)
 <!--END_SECTION:activity-->
 
 <img src="assets/divider.svg" width="100%" alt="" />
