@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="Bon vent !">
+  <defs><clipPath id="frame"><rect width="1200" height="170" rx="18"/></clipPath></defs>
+  <g clip-path="url(#frame)">
+    <g><path d="M-200,40 q50.0,-6 100.0,0 t100.0,0 q50.0,-6 100.0,0 t100.0,0 q50.0,-6 100.0,0 t100.0,0 q50.0,-6 100.0,0 t100.0,0 q50.0,-6 100.0,0 t100.0,0 q50.0,-6 100.0,0 t100.0,0 q50.0,-6 100.0,0 t100.0,0 q50.0,-6 100.0,0 t100.0,0 L1400,170 L-200,170 Z" fill="#1D4E89" opacity="0.45"><animateTransform attributeName="transform" type="translate" from="0 0" to="-200 0" dur="10s" repeatCount="indefinite"/></path></g>
+<g><path d="M-240,60 q60.0,-7 120.0,0 t120.0,0 q60.0,-7 120.0,0 t120.0,0 q60.0,-7 120.0,0 t120.0,0 q60.0,-7 120.0,0 t120.0,0 q60.0,-7 120.0,0 t120.0,0 q60.0,-7 120.0,0 t120.0,0 q60.0,-7 120.0,0 t120.0,0 L1440,170 L-240,170 Z" fill="#12355B" opacity="0.8"><animateTransform attributeName="transform" type="translate" from="0 0" to="240 0" dur="8s" repeatCount="indefinite"/></path></g>
+<g><path d="M-300,85 q75.0,-8 150.0,0 t150.0,0 q75.0,-8 150.0,0 t150.0,0 q75.0,-8 150.0,0 t150.0,0 q75.0,-8 150.0,0 t150.0,0 q75.0,-8 150.0,0 t150.0,0 q75.0,-8 150.0,0 t150.0,0 L1500,170 L-300,170 Z" fill="#0B1D33" opacity="1"><animateTransform attributeName="transform" type="translate" from="0 0" to="-300 0" dur="12s" repeatCount="indefinite"/></path></g>
+    <text x="600.0" y="125" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Roboto,Arial,sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" letter-spacing="4">BON VENT !</text>
+    <text x="600.0" y="150" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="16" fill="#F4A261">Merci pour l'escale — à bientôt sur les quais ⚓</text>
+  </g>
+</svg>
