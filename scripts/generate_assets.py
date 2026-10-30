@@ -266,10 +266,8 @@ def stack():
     <rect width="{W}" height="{H}" fill="url(#bg)"/>
     <g fill="{FOAM}" fill-opacity=".05" font-family="{MONO}" font-size="12">
       <text x="24" y="30">TERMINAL CONTENEURS · QUAI NOTSAYK</text>
-      <text x="24" y="48">$ docker compose up --build stack</text>
     </g>
     <text x="24" y="30" font-family="{MONO}" font-size="12" fill="{SAND}" font-weight="700">TERMINAL CONTENEURS · QUAI NOTSAYK</text>
-    <text x="24" y="48" font-family="{MONO}" font-size="12" fill="{FOAM}" fill-opacity=".7">$ docker compose up --build stack</text>
     <!-- gantry crane -->
     <g stroke="{SAND}" stroke-width="6" fill="none" stroke-linecap="round">
       <line x1="{crane_x+40}" y1="{quay}" x2="{crane_x+40}" y2="34"/>
@@ -380,8 +378,7 @@ def footer():
   <defs><clipPath id="frame"><rect width="{W}" height="{H}" rx="18"/></clipPath></defs>
   <g clip-path="url(#frame)">
     {sea}
-    <text x="{W/2}" y="125" text-anchor="middle" font-family="{SANS}" font-size="28" font-weight="800" fill="#FFFFFF" letter-spacing="4">BON VENT !</text>
-    <text x="{W/2}" y="150" text-anchor="middle" font-family="{MONO}" font-size="16" fill="{SAND}">Merci pour l'escale — à bientôt sur les quais ⚓</text>
+    <text x="{W/2}" y="135" text-anchor="middle" font-family="{SANS}" font-size="28" font-weight="800" fill="#FFFFFF" letter-spacing="4">BON VENT !</text>
   </g>
 </svg>
 '''

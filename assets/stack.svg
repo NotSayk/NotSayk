@@ -15,10 +15,8 @@
     <rect width="1000" height="330" fill="url(#bg)"/>
     <g fill="#E0E6ED" fill-opacity=".05" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="12">
       <text x="24" y="30">TERMINAL CONTENEURS · QUAI NOTSAYK</text>
-      <text x="24" y="48">$ docker compose up --build stack</text>
     </g>
     <text x="24" y="30" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="12" fill="#F4A261" font-weight="700">TERMINAL CONTENEURS · QUAI NOTSAYK</text>
-    <text x="24" y="48" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="12" fill="#E0E6ED" fill-opacity=".7">$ docker compose up --build stack</text>
     <!-- gantry crane -->
     <g stroke="#F4A261" stroke-width="6" fill="none" stroke-linecap="round">
       <line x1="830" y1="290" x2="830" y2="34"/>
