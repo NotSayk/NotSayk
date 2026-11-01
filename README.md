@@ -138,7 +138,7 @@
 
 <!--START_SECTION:activity-->
 - `31 oct.` 📢 [NotSayk/CustomWin](https://github.com/NotSayk/CustomWin) est maintenant public
-- `30 oct.` ⬆️ 7 pushs sur [NotSayk/NotSayk](https://github.com/NotSayk/NotSayk)
+- `30 oct.` ⬆️ 9 pushs sur [NotSayk/NotSayk](https://github.com/NotSayk/NotSayk)
 - `25 oct.` ⬆️ 1 push sur [MiniGamesSayk/OpenClaude](https://github.com/MiniGamesSayk/OpenClaude)
 - `24 oct.` ⬆️ 2 pushs sur [MiniGamesSayk/StickyClaude](https://github.com/MiniGamesSayk/StickyClaude)
 - `23 oct.` ⬆️ 25 pushs sur [MiniGamesSayk/StickyClaude](https://github.com/MiniGamesSayk/StickyClaude)
