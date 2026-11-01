@@ -137,14 +137,14 @@
 ## 📓 Activité récente
 
 <!--START_SECTION:activity-->
-- `30 oct.` ⬆️ 3 pushs sur [NotSayk/NotSayk](https://github.com/NotSayk/NotSayk)
+- `31 oct.` 📢 [NotSayk/CustomWin](https://github.com/NotSayk/CustomWin) est maintenant public
+- `30 oct.` ⬆️ 7 pushs sur [NotSayk/NotSayk](https://github.com/NotSayk/NotSayk)
 - `25 oct.` ⬆️ 1 push sur [MiniGamesSayk/OpenClaude](https://github.com/MiniGamesSayk/OpenClaude)
 - `24 oct.` ⬆️ 2 pushs sur [MiniGamesSayk/StickyClaude](https://github.com/MiniGamesSayk/StickyClaude)
 - `23 oct.` ⬆️ 25 pushs sur [MiniGamesSayk/StickyClaude](https://github.com/MiniGamesSayk/StickyClaude)
 - `22 oct.` ⬆️ 14 pushs sur [MiniGamesSayk/StickyClaude](https://github.com/MiniGamesSayk/StickyClaude)
-- `21 oct.` ⬆️ 8 pushs sur [MiniGamesSayk/StickyClaude](https://github.com/MiniGamesSayk/StickyClaude)
-- `21 oct.` ⬆️ 13 pushs sur [MiniGamesSayk/OpenClaude](https://github.com/MiniGamesSayk/OpenClaude)
-- `20 oct.` ⬆️ 1 push sur [MiniGamesSayk/OpenClaude](https://github.com/MiniGamesSayk/OpenClaude)
+- `21 oct.` ⬆️ 5 pushs sur [MiniGamesSayk/StickyClaude](https://github.com/MiniGamesSayk/StickyClaude)
+- `21 oct.` ⬆️ 1 push sur [MiniGamesSayk/OpenClaude](https://github.com/MiniGamesSayk/OpenClaude)
 <!--END_SECTION:activity-->
 
 <img src="assets/divider.svg" width="100%" alt="" />
