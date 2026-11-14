@@ -139,7 +139,7 @@
 <!--START_SECTION:activity-->
 - `14 nov.` ⬆️ 1 push sur [NotSayk/Nautila](https://github.com/NotSayk/Nautila)
 - `13 nov.` ⬆️ 6 pushs sur [NotSayk/Nautila](https://github.com/NotSayk/Nautila)
-- `12 nov.` ⬆️ 3 pushs sur [NotSayk/Nautila](https://github.com/NotSayk/Nautila)
+- `12 nov.` ⬆️ 6 pushs sur [NotSayk/Nautila](https://github.com/NotSayk/Nautila)
 - `12 nov.` ⭐ Étoile ajoutée à [ErikPeTo1/glyph-catch](https://github.com/ErikPeTo1/glyph-catch)
 - `31 oct.` 📢 [NotSayk/CustomWin](https://github.com/NotSayk/CustomWin) est maintenant public
 - `30 oct.` ⬆️ 16 pushs sur [NotSayk/NotSayk](https://github.com/NotSayk/NotSayk)
