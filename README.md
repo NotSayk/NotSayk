@@ -137,6 +137,7 @@
 ## 📓 Activité récente
 
 <!--START_SECTION:activity-->
+- `17 nov.` ⬆️ 10 pushs sur [Nailledo/D-fendMonClaude](https://github.com/Nailledo/D-fendMonClaude)
 - `16 nov.` ⬆️ 1 push sur [Nailledo/D-fendMonClaude](https://github.com/Nailledo/D-fendMonClaude)
 - `15 nov.` ⬆️ 1 push sur [NotSayk/Nautila](https://github.com/NotSayk/Nautila)
 - `14 nov.` ⬆️ 7 pushs sur [NotSayk/Nautila](https://github.com/NotSayk/Nautila)
@@ -144,7 +145,6 @@
 - `12 nov.` ⬆️ 9 pushs sur [NotSayk/Nautila](https://github.com/NotSayk/Nautila)
 - `12 nov.` ⭐ Étoile ajoutée à [ErikPeTo1/glyph-catch](https://github.com/ErikPeTo1/glyph-catch)
 - `31 oct.` 📢 [NotSayk/CustomWin](https://github.com/NotSayk/CustomWin) est maintenant public
-- `30 oct.` ⬆️ 1 push sur [NotSayk/NotSayk](https://github.com/NotSayk/NotSayk)
 <!--END_SECTION:activity-->
 
 <img src="assets/divider.svg" width="100%" alt="" />
