@@ -137,14 +137,14 @@
 ## 📓 Activité récente
 
 <!--START_SECTION:activity-->
+- `21 nov.` ⬆️ 3 pushs sur [NotSayk/FastExplorer](https://github.com/NotSayk/FastExplorer)
+- `20 nov.` ⬆️ 5 pushs sur [NotSayk/R5.07-DS-TP](https://github.com/NotSayk/R5.07-DS-TP)
 - `20 nov.` 📌 Issue fermée sur [NotSayk/R5.07-DS-TP](https://github.com/NotSayk/R5.07-DS-TP) : [#2 afficher des ‘x’ à la place des chiffres](https://github.com/NotSayk/R5.07-DS-TP/issues/2)
 - `20 nov.` 📌 Issue fermée sur [NotSayk/R5.07-DS-TP](https://github.com/NotSayk/R5.07-DS-TP) : [#1 inverser l’affichage du triangle](https://github.com/NotSayk/R5.07-DS-TP/issues/1)
 - `20 nov.` 📌 Issue ouverte sur [NotSayk/R5.07-DS-TP](https://github.com/NotSayk/R5.07-DS-TP) : [#2 afficher des ‘x’ à la place des chiffres](https://github.com/NotSayk/R5.07-DS-TP/issues/2)
 - `20 nov.` 📌 Issue ouverte sur [NotSayk/R5.07-DS-TP](https://github.com/NotSayk/R5.07-DS-TP) : [#1 inverser l’affichage du triangle](https://github.com/NotSayk/R5.07-DS-TP/issues/1)
-- `20 nov.` ⬆️ 2 pushs sur [NotSayk/R5.07-DS-TP](https://github.com/NotSayk/R5.07-DS-TP)
 - `19 nov.` ⬆️ 1 push sur [NotSayk/R5-07-DS](https://github.com/NotSayk/R5-07-DS)
 - `19 nov.` 📌 Issue fermée sur [NotSayk/R5-07-DS](https://github.com/NotSayk/R5-07-DS) : [#2 Inverser l'affichage du triangle](https://github.com/NotSayk/R5-07-DS/issues/2)
-- `19 nov.` 📌 Issue fermée sur [NotSayk/R5-07-DS](https://github.com/NotSayk/R5-07-DS) : [#1 Inverser l'affichage du triangle](https://github.com/NotSayk/R5-07-DS/issues/1)
 <!--END_SECTION:activity-->
 
 <img src="assets/divider.svg" width="100%" alt="" />
