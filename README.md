@@ -137,7 +137,7 @@
 ## 📓 Activité récente
 
 <!--START_SECTION:activity-->
-- `22 nov.` ⬆️ 6 pushs sur [NotSayk/FastExplorer](https://github.com/NotSayk/FastExplorer)
+- `22 nov.` ⬆️ 7 pushs sur [NotSayk/FastExplorer](https://github.com/NotSayk/FastExplorer)
 - `21 nov.` ⬆️ 12 pushs sur [NotSayk/FastExplorer](https://github.com/NotSayk/FastExplorer)
 - `20 nov.` ⬆️ 12 pushs sur [NotSayk/R5.07-DS-TP](https://github.com/NotSayk/R5.07-DS-TP)
 - `20 nov.` 📌 Issue fermée sur [NotSayk/R5.07-DS-TP](https://github.com/NotSayk/R5.07-DS-TP) : [#2 afficher des ‘x’ à la place des chiffres](https://github.com/NotSayk/R5.07-DS-TP/issues/2)
