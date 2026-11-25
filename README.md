@@ -137,7 +137,7 @@
 ## 📓 Activité récente
 
 <!--START_SECTION:activity-->
-- `23 nov.` ⬆️ 1 push sur [NotSayk/FastExplorer](https://github.com/NotSayk/FastExplorer)
+- `23 nov.` ⬆️ 2 pushs sur [NotSayk/FastExplorer](https://github.com/NotSayk/FastExplorer)
 - `22 nov.` ⬆️ 8 pushs sur [NotSayk/FastExplorer](https://github.com/NotSayk/FastExplorer)
 - `21 nov.` ⬆️ 12 pushs sur [NotSayk/FastExplorer](https://github.com/NotSayk/FastExplorer)
 - `20 nov.` ⬆️ 6 pushs sur [NotSayk/R5.07-DS-TP](https://github.com/NotSayk/R5.07-DS-TP)
